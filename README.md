@@ -32,36 +32,3 @@ Este repositorio contiene únicamente los archivos necesarios para desplegar y e
     
 *   **Dependencias:**
     *   `requirements.txt`: Lista de las librerías de Python necesarias.
-
-## ¿Cómo Desplegar en Streamlit Community Cloud?
-
-1.  **Crea un Repositorio en GitHub:** Crea un nuevo repositorio público.
-2.  **Sube los Archivos:** Sube todos los archivos listados en la sección anterior a tu repositorio.
-3.  **Regístrate en Streamlit:** Ve a [share.streamlit.io](https://share.streamlit.io) y regístrate usando tu cuenta de GitHub.
-4.  **Crea una Nueva App:**
-    *   Haz clic en "New app".
-    *   Selecciona tu repositorio y la rama principal (main).
-    *   Asegúrate de que el "Main file path" apunte a `6_streamlit_app.py`.
-    *   Haz clic en "Deploy!".
-5.  **¡Listo!** Streamlit se encargará de instalar las dependencias de tu `requirements.txt` y de ejecutar la aplicación.
-
-## ¿Cómo Ejecutar Localmente?
-
-1.  **Clona el Repositorio:**
-    ```bash
-    git clone <URL_de_tu_repositorio>
-    cd <nombre_del_repositorio>
-    ```
-2.  **Crea un Entorno Virtual (Recomendado):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # En Windows: venv\Scripts\activate
-    ```
-3.  **Instala las Dependencias:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  **Ejecuta la Aplicación:**
-    ```bash
-    streamlit run app.py
-    ```
