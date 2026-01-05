@@ -2,7 +2,7 @@
 
 Este proyecto es una aplicación web interactiva construida con Streamlit que permite simular y visualizar el impacto de diferentes escenarios climáticos en la demanda de energía eléctrica.
 
-[![Streamlit App](https://data2aichallenge-aleuy.streamlit.app/)
+[Streamlit App](https://data2aichallenge-aleuy.streamlit.app/)
 
 ## Descripción
 
